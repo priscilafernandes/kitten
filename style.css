@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+.kitten {
+	display: grid;
+	grid-template-rows: 100vh;
+	grid-template-columns: 1fr;
+	background-image: url('kitten-medium.png'), url('sunny-day.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center;
+	background-size: auto, cover;
+}
+
+@media screen and (max-width: 900px) {
+	.kitten {
+		background-image: url('kitten-large.png'), url('dawn.png');
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.kitten {
+		background-image: url('kitten-small.png'), url('night.jpg');
+	}
+}
