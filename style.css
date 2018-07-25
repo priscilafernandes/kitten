@@ -6,7 +6,7 @@ body {
 	display: grid;
 	grid-template-rows: 100vh;
 	grid-template-columns: 1fr;
-	background-image: url('kitten-medium.png'), url('sunny-day.jpg');
+	background-image: url('img/kitten-medium.png'), url('img/sunny-day.jpg');
 	background-repeat: no-repeat, no-repeat;
 	background-position: center bottom, center;
 	background-size: auto, cover;
@@ -14,12 +14,12 @@ body {
 
 @media screen and (max-width: 900px) {
 	.kitten {
-		background-image: url('kitten-large.png'), url('dawn.png');
+		background-image: url('img/kitten-large.png'), url('img/dawn.png');
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.kitten {
-		background-image: url('kitten-small.png'), url('night.jpg');
+		background-image: url('img/kitten-small.png'), url('img/night.jpg');
 	}
 }
